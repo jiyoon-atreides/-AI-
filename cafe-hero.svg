@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -180 1800 1260" fill="none">
+ <defs>
+  <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#dac39d"/><stop offset="1" stop-color="#aa8259"/></linearGradient>
+  <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#a77a4b"/><stop offset="1" stop-color="#67442b"/></linearGradient>
+  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#92663e"/><stop offset="1" stop-color="#4e3629"/></linearGradient>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a9c8d3"/><stop offset="1" stop-color="#d7d1b5"/></linearGradient>
+  <linearGradient id="counter" x2="0" y2="1"><stop stop-color="#9f7855"/><stop offset="1" stop-color="#594232"/></linearGradient>
+  <pattern id="ceiling" width="180" height="118" patternUnits="userSpaceOnUse"><rect width="180" height="118" fill="#543820"/><path d="M0 0h180v11H0zM0 0v118h10V0m83 0v118h12V0m75 0v118h10V0M0 55h180v9H0" fill="#8b633a"/><path d="M12 14h77v37H12zM106 14h61v37h-61zM12 68h77v38H12zm94 0h61v38h-61z" fill="#684729"/><path d="M13 16h74M108 16h57" stroke="#b28a58" stroke-opacity=".42" stroke-width="2"/></pattern>
+  <pattern id="planks" width="280" height="90" patternUnits="userSpaceOnUse"><rect width="280" height="90" fill="url(#floor)"/><path d="M0 2h280M0 88h280M91 2v42m96-42v42M0 47h280m-142 0v41m94-41v41" stroke="#c29865" stroke-opacity=".36" stroke-width="3"/><path d="M8 20h58m45 38h45m68-42h42" stroke="#d1a774" stroke-opacity=".2" stroke-width="2"/></pattern>
+  <pattern id="woodgrain" width="70" height="70" patternUnits="userSpaceOnUse"><rect width="70" height="70" fill="url(#counter)"/><path d="M6 0v70m28-70v70m31-70v70" stroke="#d5b18a" stroke-opacity=".22" stroke-width="2"/><path d="M13 0v70m27-70v70m18-70v70" stroke="#37281e" stroke-opacity=".2"/></pattern>
+ </defs>
+ <!-- extra depth above: the nearer ceiling bays -->
+ <rect x="0" y="-180" width="1800" height="180" fill="url(#ceiling)"/>
+ <path d="M0-18h1800v22H0z" fill="#352519"/><path d="M0-176h1800v13H0z" fill="#9a7043"/>
+ <path d="M183-180v121m245-121v121m242-121v121m247-121v121m239-121v121m241-121v121" stroke="#b88d58" stroke-width="13" opacity=".75"/>
+ <!-- pendant lights hanging from the nearer ceiling -->
+ <path d="M310-180v113m505-113v151m641-151v125m255-125v162" stroke="#2d251e" stroke-width="6"/>
+ <path d="M278-68h64l-13 31h-38zM779-30h72l-15 35h-42zm1138-27h67l-14 32h-39zm-257 38h70l-15 35h-40z" fill="#c99d60"/>
+ <path d="M280-35h60m442 40h66m798-30h63m213-1h58" stroke="#f5d797" stroke-width="5" opacity=".72"/>
+ <!-- lofty timber ceiling -->
+ <path d="M0 0h1440v260H0z" fill="url(#ceiling)"/><path d="M0 245h1440v20H0z" fill="#382719"/>
+ <!-- back wall and side joinery -->
+ <path d="M0 260h1440v426H0z" fill="url(#wall)"/><path d="M0 260h110v426H0z" fill="#805b39"/><path d="M28 285h70v178H28z" fill="#432f21"/><path d="M38 297h50v84H38z" fill="#263342" stroke="#b28a58" stroke-width="5"/><path d="M25 480h92v122H25z" fill="#5b3e28"/><path d="M15 470h112v12H15zM15 600h112v13H15z" fill="#b38a59"/>
+ <!-- rear bar wall -->
+ <path d="M110 275h705v300H110z" fill="#b08c65"/><path d="M110 285h705v27H110z" fill="#4d3928"/><path d="M145 321h625v194H145z" fill="#d2b895"/><path d="M145 321h625v15H145z" fill="#86613f"/>
+ <!-- shelves and coffee equipment -->
+ <path d="M152 360h617v9H152zM152 430h617v8H152z" fill="#6a492f"/><path d="M176 341h67v17h-67zm94 0h53v17h-53zm86 0h90v17h-90zm119 0h51v17h-51zm80 0h71v17h-71z" fill="#e7d8bd"/><path d="M199 370h28v53h-28zm125 0h39v52h-39zm116 0h57v54h-57z" fill="#7b5838"/>
+ <path d="M492 377h70v49h-70z" fill="#263341"/><path d="M501 365h50v14h-50z" fill="#b4a58c"/><path d="M513 351h29v14h-29z" fill="#252a2c"/><circle cx="508" cy="414" r="5" fill="#d9bf8c"/><circle cx="526" cy="414" r="5" fill="#d9bf8c"/>
+ <path d="M604 373h36v53h-36z" fill="#293542"/><path d="M651 389h43v36h-43z" fill="#ded1b9"/><path d="M709 379h29v47h-29z" fill="#554632"/>
+ <!-- large street-facing window -->
+ <path d="M830 125h610v463H830z" fill="#352c25"/><path d="M847 143h574v422H847z" fill="url(#sky)"/>
+ <path d="M847 402h574v163H847z" fill="#879883"/><path d="M847 451h574v114H847z" fill="#b3aa87"/>
+ <!-- quiet city shapes outside -->
+ <path d="M858 333h84v104h-84zm93-59h108v164H951zm121 43h75v116h-75zm90-85h104v201h-104zm112 54h124v147h-124z" fill="#87999a" opacity=".85"/>
+ <path d="M868 349h19v22h-19zm35 0h21v22h-21zm62-55h23v25h-23zm43 0h22v25h-22zm-42 47h23v26h-23zm42 0h22v26h-22zm121-79h24v30h-24zm44 0h24v30h-24zm-44 51h24v29h-24zm44 0h24v29h-24zm94 12h28v26h-28zm48 0h24v26h-24z" fill="#d5d5c3" opacity=".75"/>
+ <path d="M847 429h574" stroke="#514337" stroke-width="8"/><path d="M1064 143v422m202-422v422" stroke="#382e26" stroke-width="12"/><path d="M830 572h610v22H830z" fill="#523a28"/>
+ <!-- counter -->
+ <path d="M286 506h548v161H286z" fill="url(#woodgrain)"/><path d="M268 488h585v34H268z" fill="#453020"/><path d="M270 484h581v13H270z" fill="#c09a6d"/><path d="M286 667h548v15H286z" fill="#3b2a20"/>
+ <!-- front panels -->
+ <path d="M308 535h114v112H308zm135 0h113v112H443zm135 0h113v112H578zm135 0h88v112h-88z" fill="#896342" stroke="#c09a6d" stroke-width="3"/><path d="M320 548h90v2h-90m135-2h88m47 0h88m47 0h65" stroke="#d6b38a" stroke-opacity=".35" stroke-width="2"/>
+ <!-- stools -->
+ <g fill="#563d29" stroke="#34281e" stroke-width="8"><path d="M896 515h67v19h-67z"/><path d="M907 534l-12 130m61-130 19 130m-61-55h49" fill="none"/><path d="M1060 510h70v20h-70z"/><path d="M1073 530l-14 135m61-135 21 135m-64-55h51" fill="none"/><path d="M1230 513h72v21h-72z"/><path d="M1244 534l-15 129m63-129 21 129m-65-54h51" fill="none"/><path d="M1360 533h61v19h-61z"/><path d="M1370 552l-12 108m49-108 18 108m-52-44h43" fill="none"/></g>
+ <!-- warm pendant lights -->
+ <path d="M970 0v88m220-88v76" stroke="#2c251e" stroke-width="5"/><path d="M941 86h58l-12 27h-34zM1190 75h58l-12 27h-34z" fill="#d0ab70"/><path d="M945 111h50m199-11h50" stroke="#f0d498" stroke-width="4" opacity=".7"/>
+ <!-- wood floor -->
+ <path d="M0 682h1440v218H0z" fill="url(#planks)"/><path d="M0 686h1440" stroke="#33251d" stroke-width="14"/>
+ <path d="M0 785l520-100m160 215 500-213M445 900l405-213m215 213 325-168M70 900l355-214" stroke="#d7b080" stroke-opacity=".16" stroke-width="4"/>
+ <!-- foreground café table edge for depth -->
+ <path d="M1010 806h430v26h-430z" fill="#64452e"/><path d="M1040 832l-18 68m370-68 20 68" stroke="#36281e" stroke-width="16"/>
+ <!-- wider room beyond the original counter view -->
+ <path d="M1440 260h360v426h-360z" fill="#90714e"/><path d="M1457 125h325v463h-325z" fill="#352c25"/><path d="M1472 143h294v422h-294z" fill="url(#sky)"/>
+ <path d="M1472 405h294v160h-294z" fill="#83927a"/><path d="M1472 458h294v107h-294z" fill="#b3aa87"/>
+ <path d="M1490 342h60v79h-60zm70-104h74v183h-74zm82 67h52v116h-52zm60-45h51v161h-51z" fill="#87999a" opacity=".85"/>
+ <path d="M1480 429h278" stroke="#514337" stroke-width="8"/><path d="M1614 143v422" stroke="#382e26" stroke-width="12"/><path d="M1457 572h325v22h-325z" fill="#523a28"/>
+ <!-- additional quiet seating area and plant -->
+ <path d="M1450 598h350v88h-350z" fill="#4d3828"/><path d="M1463 591h317v18h-317z" fill="#c09a6d"/>
+ <path d="M1510 609h245v58h-245z" fill="#72553b"/><path d="M1520 619h225v36h-225z" fill="#26394c"/><path d="M1510 663h245v14h-245z" fill="#3b2a20"/>
+ <path d="M1490 675v78m270-78v78" stroke="#382a20" stroke-width="13"/>
+ <path d="M1734 509h40v53h-40z" fill="#806144"/><path d="M1754 508v-55m0 30-22-25m22 11 20-28" stroke="#405944" stroke-width="8" stroke-linecap="round"/>
+ <path d="M1440 686h360v214h-360z" fill="url(#planks)"/><path d="M1440 686h360" stroke="#33251d" stroke-width="14"/>
+ <!-- extra foreground floor: more of the room rather than a cropped edge -->
+ <rect x="0" y="900" width="1800" height="180" fill="url(#planks)"/>
+ <path d="M0 900h1800" stroke="#34261e" stroke-width="8"/>
+ <path d="M0 947h1800m-1800 82h1800M230 900l-86 180m402-180-38 180m456-180 38 180m389-180 82 180m242-180 112 180" stroke="#d6ad79" stroke-opacity=".25" stroke-width="4"/>
+ <!-- foreground lounge chair, seen at the edge of the larger room -->
+ <path d="M84 918h238v67H84z" fill="#24384e"/><path d="M97 900h212v43H97z" fill="#36536e"/><path d="M112 983l-20 97m198-97 31 97" stroke="#352a22" stroke-width="17"/>
+ <path d="M430 942h218v51H430z" fill="#4e6170"/><path d="M447 919h185v44H447z" fill="#687e8d"/><path d="M456 991l-18 89m193-89 28 89" stroke="#392c23" stroke-width="15"/>
+</svg>
